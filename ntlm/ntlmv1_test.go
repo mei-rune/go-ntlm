@@ -62,7 +62,7 @@ func TestNtlmV1ExtendedSessionSecurity(t *testing.T) {
 	context.SetServerChallenge(c.ServerChallenge)
 	err = context.ProcessAuthenticateMessage(msg)
 	if err == nil {
-		t.Errorf("This message should have failed to authenticate, but it passed")
+		t.Error("This message should have failed to authenticate, but it passed")
 	}
 }
 
