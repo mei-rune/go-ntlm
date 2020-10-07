@@ -1,3 +1,5 @@
+This is a copy of github.com/ThomsonReutersEikon/go-ntlm
+
 # IMPORTANT NOTE
 This repository will be removed on December 14th and will no longer be maintained and ownership will also not be transferred. Please fork this repositiory if you wish to continue to use it.
 
